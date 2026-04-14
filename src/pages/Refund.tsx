@@ -45,7 +45,7 @@ export default function Refund() {
                 Overview
               </h2>
               <p className="text-gray-500 leading-relaxed mb-4">
-                At ZENTIVORA TECHNOLOGIES LTD, we strive to ensure absolute
+                Babu Lal Gurjar, operating <strong>Gremso</strong>, strives to ensure
                 satisfaction with our productivity workspace. However, we
                 understand that sometimes a service might not be the perfect fit
                 for your operational needs.
@@ -127,11 +127,8 @@ export default function Refund() {
                 please reach out to our team:
               </p>
               <ul className="text-gray-500 space-y-2">
-                <li>Email: billing@zentivora.com</li>
-                <li>
-                  Company: ZENTIVORA TECHNOLOGIES LTD (Company Number: 17049974)
-                </li>
-                <li>Address: 28, City Road, London, EC1V 2NX, United Kingdom</li>
+                <li>Email: billing@gremso.com</li>
+                <li>Operator: Babu Lal Gurjar (Gremso)</li>
               </ul>
             </div>
           </div>

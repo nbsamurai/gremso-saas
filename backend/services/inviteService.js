@@ -4,7 +4,7 @@ const TeamMember = require('../models/TeamMember');
 const { addUserToTeam } = require('./teamService');
 
 const INVITE_DURATION_MS = 1000 * 60 * 60 * 24 * 7;
-const DEFAULT_APP_URL = 'https://www.zentivoratech.com';
+const DEFAULT_APP_URL = 'https://www.gremso.com';
 
 const normalizeEmail = (email = '') => email.trim().toLowerCase();
 
@@ -35,7 +35,7 @@ const buildInviteEmail = ({ managerName, teamName, loginUrl, signupUrl }) => ({
     html: `
         <div style="font-family: Arial, sans-serif; color: #1f2937; line-height: 1.6;">
             <h2 style="margin-bottom: 12px;">You're invited to join a team</h2>
-            <p>${managerName} invited you to join <strong>${teamName}</strong> on Zentivora.</p>
+            <p>${managerName} invited you to join <strong>${teamName}</strong> on Gremso.</p>
             <p style="margin: 24px 0;">
                 <a href="${loginUrl}" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:12px 18px;background:#2563eb;color:#ffffff;text-decoration:none;border-radius:10px;font-weight:600;margin-right:12px;">
                     Log In

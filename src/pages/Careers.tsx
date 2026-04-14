@@ -4,11 +4,11 @@ export default function Careers() {
   return (
     <InfoPageLayout
       title="Careers"
-      intro="We are building software that helps construction teams run projects with more clarity, speed, and confidence."
+      intro="Gremso is independent software that helps construction teams run projects with more clarity, speed, and confidence."
       paragraphs={[
-        'At ZENTIVORA, we value practical thinking, strong execution, and products that solve real operational problems. Our work focuses on creating tools that make day-to-day project delivery easier for teams managing documents, deadlines, and collaboration.',
-        'We are especially interested in people who care about product quality, communication, and continuous improvement. Whether your background is in engineering, design, operations, or customer support, your work should help teams stay organized and productive in the real world.',
-        'As we grow, we aim to build a thoughtful and focused company culture where people can do strong work, learn quickly, and contribute to a product with measurable value for its users.',
+        'We value practical thinking, strong execution, and tools that solve real operational problems—especially for teams managing documents, deadlines, and collaboration on active jobs.',
+        'The team is small and product-led. We are especially interested in people who care about quality, clear communication, and shipping work that helps real teams in the field and the office.',
+        'When roles open up, we look for contributors who want to grow with an early-stage product and make measurable impact for Gremso users.',
       ]}
     />
   );

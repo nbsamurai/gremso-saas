@@ -7,12 +7,17 @@ const connectDB = require('./config/database');
 const app = express();
 const http = require('http');
 const { Server } = require('socket.io');
-const allowedOrigins = [
+const defaultOrigins = [
     'http://localhost:5173',
     'https://buxton-saas-new.vercel.app',
-    'https://zentivoratech.com',
-    'https://www.zentivoratech.com'
+    'https://gremso.com',
+    'https://www.gremso.com'
 ];
+const extraOrigins = (process.env.CORS_ORIGINS || '')
+    .split(',')
+    .map((origin) => origin.trim())
+    .filter(Boolean);
+const allowedOrigins = [...new Set([...defaultOrigins, ...extraOrigins])];
 const corsOptions = {
     origin(origin, callback) {
         if (!origin || allowedOrigins.includes(origin)) {
@@ -61,7 +66,7 @@ app.use('/api/', limiter);
 
 // Define Routes
 app.get('/', (req, res) => {
-    res.send('ZENTIVORA Backend API Running');
+    res.send('Gremso Backend API Running');
 });
 app.get('/api/health', (req, res) => {
     res.json({ status: 'Backend connected successfully' });

@@ -35,7 +35,7 @@ export default function Navbar() {
               <Hammer className="w-5 h-5 text-white" />
             </div>
             <span className="text-xl font-semibold text-[#1F2937]">
-              ZENTIVORA
+              Gremso
             </span>
           </Link>
 

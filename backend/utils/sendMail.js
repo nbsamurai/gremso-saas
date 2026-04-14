@@ -3,8 +3,8 @@ const { Resend } = require('resend');
 let resendClient;
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const DEFAULT_FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'no-reply@zentivoratech.com';
-const DEFAULT_FROM = `Zentivora Technologies <${DEFAULT_FROM_EMAIL}>`;
+const DEFAULT_FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'no-reply@gremso.com';
+const DEFAULT_FROM = `Gremso <${DEFAULT_FROM_EMAIL}>`;
 
 const getApiKey = () => process.env.RESEND_API_KEY;
 

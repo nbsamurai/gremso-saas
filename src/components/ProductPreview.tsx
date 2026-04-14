@@ -4,7 +4,7 @@ export default function ProductPreview() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 relative z-10">
           <h2 className="text-3xl font-extrabold text-gray-800 sm:text-4xl">
-            See How Zentivora Workspace Works
+            See How Gremso Works
           </h2>
           <p className="mt-4 text-xl text-gray-500 max-w-2xl mx-auto">
             Experience the intuitively designed interface that makes managing
@@ -21,7 +21,7 @@ export default function ProductPreview() {
               <div className="w-3 h-3 rounded-full bg-green-400"></div>
             </div>
             <div className="mx-auto flex items-center bg-white px-3 py-1 rounded-md shadow-sm border border-gray-200 text-xs text-gray-500 max-w-sm w-full truncate justify-center">
-              <span className="truncate">app.zentivora.com/dashboard</span>
+              <span className="truncate">app.gremso.com/dashboard</span>
             </div>
           </div>
 

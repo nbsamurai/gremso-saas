@@ -23,8 +23,8 @@ export default function Settings() {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   // Company state (Static / local only for now if no DB field)
-  const [companyName, setCompanyName] = useState('ZENTIVORA TECHNOLOGIES LTD');
-  const [companyAddress, setCompanyAddress] = useState('28, City Road, London, EC1V 2NX, United Kingdom');
+  const [companyName, setCompanyName] = useState('Babu Lal Gurjar');
+  const [companyAddress, setCompanyAddress] = useState('');
 
   const isManager = isManagerRole(user?.role);
 

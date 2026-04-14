@@ -45,7 +45,8 @@ export default function Terms() {
                 Introduction
               </h2>
               <p className="text-[#6B7280] leading-relaxed mb-4">
-                Welcome to ZENTIVORA TECHNOLOGIES LTD. By accessing and using our
+                Welcome to <strong>Gremso</strong>. The service is operated by{' '}
+                <strong>Babu Lal Gurjar</strong>. By accessing and using our
                 platform, you agree to be bound by these Terms and Conditions.
                 Please read them carefully before using our services.
               </p>
@@ -102,7 +103,7 @@ export default function Terms() {
               </h2>
               <p className="text-[#6B7280] leading-relaxed mb-4">
                 Select features of our platform require a subscription or
-                one-off payment. By subscribing to ZENTIVORA TECHNOLOGIES LTD,
+                one-off payment. By subscribing to <strong>Gremso</strong>,
                 you agree to pay all applicable fees associated with the
                 selected tier.
               </p>
@@ -118,8 +119,8 @@ export default function Terms() {
                 Limitation of Liability
               </h2>
               <p className="text-[#6B7280] leading-relaxed mb-4">
-                To the maximum extent permitted by law, ZENTIVORA TECHNOLOGIES
-                LTD shall not be liable for any indirect, incidental, special,
+                To the maximum extent permitted by law, Babu Lal Gurjar
+                (operator of Gremso) shall not be liable for any indirect, incidental, special,
                 consequential, or punitive damages, or any loss of profits or
                 revenues.
               </p>
@@ -140,11 +141,8 @@ export default function Terms() {
                 at:
               </p>
               <ul className="text-[#6B7280] space-y-2">
-                <li>Email: support@zentivora.com</li>
-                <li>
-                  Company: ZENTIVORA TECHNOLOGIES LTD (Company Number: 17049974)
-                </li>
-                <li>Address: 28, City Road, London, EC1V 2NX, United Kingdom</li>
+                <li>Email: support@gremso.com</li>
+                <li>Operator: Babu Lal Gurjar (Gremso)</li>
               </ul>
             </div>
           </div>

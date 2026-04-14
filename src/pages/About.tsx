@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Target, Eye, Award, Users } from 'lucide-react';
@@ -11,12 +12,12 @@ export default function About() {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl font-bold text-gray-800 mb-6">
-            About ZENTIVORA TECHNOLOGIES
+            About Gremso
           </h1>
           <p className="text-xl text-gray-500 leading-relaxed">
-            We're on a mission to revolutionize how construction teams manage
-            scaffolding projects through innovative technology and seamless
-            collaboration.
+            Gremso is an independent SaaS product on a mission to help
+            construction teams manage scaffolding projects with clearer
+            workflows, safer operations, and less friction.
           </p>
         </div>
       </section>
@@ -26,29 +27,28 @@ export default function About() {
           <div className="grid grid-cols-1">
             <div className="max-w-4xl mx-auto w-full text-center md:text-left">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                Our Story
+                Our story
               </h2>
               <div className="space-y-4 text-gray-500 leading-relaxed">
                 <p>
-                  ZENTIVORA TECHNOLOGIES LTD - Company Number: 17049974
-                  <br />
-                  Incorporated on 24 February 2026.
-                  <br />
-                  <br />
-                  We emerged from a simple observation: construction teams were
-                  struggling with outdated tools to manage complex scaffolding
-                  projects.
+                  <strong>Gremso</strong> is built and operated by{' '}
+                  <strong>Babu Lal Gurjar</strong>. It started from a simple
+                  observation: construction teams were juggling scattered tools
+                  to run complex scaffolding work—documents, deadlines, and
+                  coordination were harder than they needed to be.
                 </p>
                 <p>
-                  We knew there had to be a better way. So we built a platform
-                  that combines powerful project management features with safety
-                  compliance tools, all wrapped in a beautiful, easy-to-use
-                  interface.
+                  Rather than layering another generic app on top of that mess,
+                  the focus became a single workspace: project management,
+                  document handling, and team visibility in one place, with
+                  safety and compliance in mind from day one.
                 </p>
                 <p>
-                  Today, teams across the globe trust ZENTIVORA to manage their
-                  scaffolding operations, ensuring safety, efficiency, and
-                  seamless collaboration.
+                  Because the product is individually led, decisions stay close
+                  to the people who use it: ship useful features, listen to
+                  feedback, and keep quality high. Teams use <strong>Gremso</strong>{' '}
+                  to run scaffolding operations with clearer accountability and
+                  a smoother day-to-day rhythm.
                 </p>
               </div>
             </div>
@@ -64,13 +64,12 @@ export default function About() {
                 <Target className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                Our Mission
+                Our mission
               </h3>
               <p className="text-gray-500 leading-relaxed">
-                To empower construction teams with the best scaffolding
-                management platform, making projects safer, more efficient, and
-                easier to manage. We believe that great software should be
-                powerful yet simple, helping teams focus on what matters most.
+                To give construction teams a scaffolding-focused workspace that
+                feels powerful yet simple—so they can spend less time fighting
+                software and more time delivering safe, efficient projects.
               </p>
             </div>
 
@@ -79,13 +78,13 @@ export default function About() {
                 <Eye className="w-6 h-6 text-white" />
               </div>
               <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                Our Vision
+                Our vision
               </h3>
               <p className="text-gray-500 leading-relaxed">
-                To become the global standard for scaffolding project
-                management, setting new benchmarks for safety, efficiency, and
-                team collaboration in the construction industry. We envision a
-                world where every project runs smoothly and safely.
+                A future where field and office teams share one trusted home for
+                projects and documents—where <strong>Gremso</strong> keeps
+                improving through direct feedback and steady, thoughtful
+                iteration from an independent builder.
               </p>
             </div>
           </div>
@@ -97,7 +96,7 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            Why Choose ZENTIVORA?
+            Why choose Gremso?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div>
@@ -105,10 +104,10 @@ export default function About() {
                 <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                Built for Teams
+                Built for teams
               </h3>
               <p className="text-gray-500 text-sm">
-                Designed from the ground up with team collaboration at its core
+                Collaboration, roles, and shared context—not solo spreadsheets.
               </p>
             </div>
 
@@ -117,10 +116,11 @@ export default function About() {
                 <Award className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                Industry Leading
+                Owner-led quality
               </h3>
               <p className="text-gray-500 text-sm">
-                Trusted by top construction companies worldwide
+                Shaped by Babu Lal Gurjar with a direct line from users to the
+                product roadmap.
               </p>
             </div>
 
@@ -129,10 +129,10 @@ export default function About() {
                 <Target className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
-                Focused on Safety
+                Safety in mind
               </h3>
               <p className="text-gray-500 text-sm">
-                Comprehensive safety compliance features built in
+                Compliance and operational visibility for demanding job sites.
               </p>
             </div>
           </div>
@@ -142,18 +142,18 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-indigo-600">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-6">
-            Join Our Community
+            Join our community
           </h2>
           <p className="text-xl text-gray-300 mb-10">
-            Become part of a growing community of construction professionals
-            using ZENTIVORA to transform their projects.
+            Become part of a growing group of construction professionals using{' '}
+            <strong className="text-white">Gremso</strong> to run their projects.
           </p>
-          <a
-            href="/signup"
+          <Link
+            to="/signup"
             className="inline-flex items-center justify-center px-8 py-4 text-base font-medium text-gray-800 bg-white rounded-lg hover:bg-gray-100 transition-colors"
           >
-            Get Started Today
-          </a>
+            Get started today
+          </Link>
         </div>
       </section>
 

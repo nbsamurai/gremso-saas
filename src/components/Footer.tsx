@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Hammer, Instagram, Linkedin } from 'lucide-react';
+import { Hammer, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,32 +12,19 @@ export default function Footer() {
                 <Hammer className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold text-gray-800 tracking-tight">
-                ZENTIVORA TECHNOLOGIES
+                Gremso
               </span>
             </div>
             <p className="text-base text-gray-500 mb-8 max-w-sm leading-relaxed">
               The modern workspace for construction teams to organize documents, manage projects, and collaborate.
             </p>
-            <div className="flex space-x-5">
-              <a
-                href="https://www.instagram.com/ravi_rana1100/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit Instagram profile"
-                className="text-gray-400 hover:text-gray-800 transition-colors"
-              >
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/ravi-rana-88bb693b6/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit LinkedIn profile"
-                className="text-gray-400 hover:text-gray-800 transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-2 text-base text-gray-500 hover:text-gray-800 transition-colors"
+            >
+              <Mail className="w-5 h-5 shrink-0" />
+              Contact us
+            </Link>
           </div>
 
           <div>
@@ -164,18 +151,19 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="flex flex-col items-center justify-center space-y-1 mb-4">
             <p className="text-sm text-gray-500 text-center font-medium">
-              ZENTIVORA TECHNOLOGIES LTD - Company Number: 17049974
+              Gremso is operated by Babu Lal Gurjar.
             </p>
             <p className="text-sm text-gray-500 text-center">
-              Incorporated on 24 February 2026
-            </p>
-            <p className="text-sm text-gray-500 text-center">
-              28, City Road, London, EC1V 2NX, United Kingdom
+              Questions?{' '}
+              <Link to="/contact" className="text-gray-700 hover:text-gray-900 underline">
+                Get in touch
+              </Link>
+              .
             </p>
           </div>
           <p className="text-sm text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} ZENTIVORA TECHNOLOGIES LTD. All
-            rights reserved.
+            &copy; {new Date().getFullYear()} Babu Lal Gurjar. All rights
+            reserved.
           </p>
         </div>
       </div>

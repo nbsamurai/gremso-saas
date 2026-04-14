@@ -45,7 +45,8 @@ export default function Policy() {
                 Introduction
               </h2>
               <p className="text-[#6B7280] leading-relaxed mb-4">
-                At ZENTIVORA TECHNOLOGIES LTD, we take your privacy seriously.
+                <strong>Babu Lal Gurjar</strong>, operating the{' '}
+                <strong>Gremso</strong> service, takes your privacy seriously.
                 This Privacy Policy explains how we collect, use, disclose, and
                 safeguard your information when you use our platform.
               </p>
@@ -162,9 +163,8 @@ export default function Policy() {
                 contact us:
               </p>
               <ul className="text-[#6B7280] space-y-2">
-                <li>Email: privacy@zentivora.com</li>
-                <li>Phone: +44 20 1234 5678</li>
-                <li>Address: 28, City Road, London, EC1V 2NX, United Kingdom</li>
+                <li>Email: privacy@gremso.com</li>
+                <li>Operator: Babu Lal Gurjar (Gremso)</li>
               </ul>
             </div>
           </div>

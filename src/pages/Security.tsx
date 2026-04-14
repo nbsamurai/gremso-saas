@@ -45,7 +45,7 @@ export default function Security() {
                 Enterprise-Grade Security
               </h2>
               <p className="text-gray-500 leading-relaxed mb-4">
-                At ZENTIVORA TECHNOLOGIES LTD, the security and reliability of
+                For <strong>Gremso</strong>, operated by Babu Lal Gurjar, the security and reliability of
                 your data is our highest priority. We employ state-of-the-art
                 security practices to ensure your construction and productivity
                 data remains strictly confidential and continuously available.
@@ -120,9 +120,9 @@ export default function Security() {
                 community helps keep our users safer.
               </p>
               <p className="text-gray-500 leading-relaxed">
-                If you have discovered a security vulnerability on ZENTIVORA
-                TECHNOLOGIES LTD, we encourage you to contact us immediately on
-                our secure reporting line.
+                If you have discovered a security vulnerability affecting{' '}
+                <strong>Gremso</strong>, we encourage you to contact us using the
+                details below.
               </p>
             </div>
 
@@ -134,11 +134,8 @@ export default function Security() {
                 To report an incident or inquire about our security policies:
               </p>
               <ul className="text-gray-500 space-y-2">
-                <li>Email: security@zentivora.com</li>
-                <li>
-                  Company: ZENTIVORA TECHNOLOGIES LTD (Company Number: 17049974)
-                </li>
-                <li>Address: 28, City Road, London, EC1V 2NX, United Kingdom</li>
+                <li>Email: security@gremso.com</li>
+                <li>Operator: Babu Lal Gurjar (Gremso)</li>
               </ul>
             </div>
           </div>

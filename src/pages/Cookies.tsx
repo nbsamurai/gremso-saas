@@ -47,7 +47,7 @@ export default function Cookies() {
               <p className="text-gray-500 leading-relaxed mb-4">
                 Cookies are small pieces of text sent to your web browser by a
                 website you visit. They are stored in your web browser and allow
-                ZENTIVORA TECHNOLOGIES LTD or a third party to recognize you and
+                Gremso (operated by Babu Lal Gurjar) or a third party to recognize you and
                 make your next visit easier and our services more useful to you.
               </p>
               <p className="text-gray-500 leading-relaxed">
@@ -88,7 +88,7 @@ export default function Cookies() {
                 Types of Cookies
               </h2>
               <p className="text-gray-500 leading-relaxed mb-4">
-                When you use and access ZENTIVORA TECHNOLOGIES LTD, we may place
+                When you use and access Gremso, we may place
                 a number of cookie files in your web browser.
               </p>
               <ul className="list-disc list-inside text-gray-500 space-y-2">
@@ -132,11 +132,8 @@ export default function Cookies() {
                 contact us at:
               </p>
               <ul className="text-gray-500 space-y-2">
-                <li>Email: privacy@zentivora.com</li>
-                <li>
-                  Company: ZENTIVORA TECHNOLOGIES LTD (Company Number: 17049974)
-                </li>
-                <li>Address: 28, City Road, London, EC1V 2NX, United Kingdom</li>
+                <li>Email: privacy@gremso.com</li>
+                <li>Operator: Babu Lal Gurjar (Gremso)</li>
               </ul>
             </div>
           </div>

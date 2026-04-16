@@ -196,10 +196,10 @@ export default function Contact() {
                 </h3>
                 <p className="mb-2 text-sm text-gray-500">For support</p>
                 <a
-                  href="mailto:tusharpalaria2@gmail.com"
+                  href="mailto:support@gremso.com"
                   className="text-gray-500 transition-colors hover:text-gray-800"
                 >
-                  tusharpalaria2@gmail.com
+                  support@gremso.com
                 </a>
               </div>
 
@@ -210,7 +210,12 @@ export default function Contact() {
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">
                   Phone
                 </h3>
-                <p className="text-gray-500">+44 20 1234 5678</p>
+                <a
+                  href="tel:+919358592960"
+                  className="text-gray-500 transition-colors hover:text-gray-800"
+                >
+                  +91 93585 92960
+                </a>
               </div>
 
               <div className="bg-white rounded-xl border border-gray-200 p-6">
@@ -221,13 +226,13 @@ export default function Contact() {
                   Company Address
                 </h3>
                 <p className="text-gray-500">
-                  28, City Road
+                  S/O: Prabhu Dayal Gurjar,
                   <br />
-                  London
+                  Balwanta, Rajosi,
                   <br />
-                  EC1V 2NX
+                  Ajmer,
                   <br />
-                  United Kingdom
+                  Rajasthan - 305401
                 </p>
               </div>
             </div>

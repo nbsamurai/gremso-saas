@@ -21,3 +21,6 @@ dist-ssr
 *.sln
 *.sw?
 .env
+
+# Internal specs / markdown (not shipped with the app)
+context/

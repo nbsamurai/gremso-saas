@@ -33,8 +33,8 @@ export default function Home() {
   const pricingPlans = [
     {
       name: 'Starter',
-      price: isYearly ? '$470' : '$49',
-      originalPrice: isYearly ? '$588' : undefined,
+      price: isYearly ? '€470' : '€49',
+      originalPrice: isYearly ? '€588' : undefined,
       period: isYearly ? '/year' : '/month',
       description: 'Perfect for small teams getting started',
       features: [
@@ -46,8 +46,8 @@ export default function Home() {
     },
     {
       name: 'Professional',
-      price: isYearly ? '$1910' : '$199',
-      originalPrice: isYearly ? '$2388' : undefined,
+      price: isYearly ? '€960' : '€100',
+      originalPrice: isYearly ? '€1200' : undefined,
       period: isYearly ? '/year' : '/month',
       description: 'For growing teams with advanced needs',
       features: [
@@ -60,8 +60,8 @@ export default function Home() {
     },
     {
       name: 'Premium Plus',
-      price: isYearly ? '$3830' : '$399',
-      originalPrice: isYearly ? '$4788' : undefined,
+      price: isYearly ? '€1910' : '€199',
+      originalPrice: isYearly ? '€2388' : undefined,
       period: isYearly ? '/year' : '/month',
       description: 'For larger organizations that need unlimited scale',
       features: [

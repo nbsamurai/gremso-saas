@@ -27,8 +27,8 @@ export const PLAN_DEFINITIONS: Record<PlanName, PlanDefinition> = {
   professional: {
     name: 'professional',
     label: 'Professional',
-    monthlyPrice: 199,
-    yearlyPrice: 1910,
+    monthlyPrice: 100,
+    yearlyPrice: 960,
     description: 'Built for growing teams that need advanced collaboration.',
     teamMemberLimit: 20,
     storageLimitBytes: 100 * GB,
@@ -37,8 +37,8 @@ export const PLAN_DEFINITIONS: Record<PlanName, PlanDefinition> = {
   premium_plus: {
     name: 'premium_plus',
     label: 'Premium Plus',
-    monthlyPrice: 399,
-    yearlyPrice: 3830,
+    monthlyPrice: 199,
+    yearlyPrice: 1910,
     description: 'For larger teams that need unlimited scale and full access.',
     teamMemberLimit: null,
     storageLimitBytes: null,
@@ -66,14 +66,14 @@ export const formatPrice = (planName: PlanName, billingCycle: BillingCycle) => {
   if (billingCycle === 'yearly') {
     const originalPrice = plan.monthlyPrice ? plan.monthlyPrice * 12 : null;
     return {
-      value: `$${price}`,
+      value: `€${price}`,
       period: '/year',
-      original: originalPrice ? `$${originalPrice}` : null
+      original: originalPrice ? `€${originalPrice}` : null
     };
   }
 
   return {
-    value: `$${price}`,
+    value: `€${price}`,
     period: '/month',
     original: null as string | null
   };

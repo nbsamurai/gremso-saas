@@ -39,7 +39,7 @@ export default function PricingCard({
           </span>
         </div>
       )}
-      <div className="mb-6 h-[88px]">
+      <div className="mb-6">
         <h3 className="text-xl font-semibold text-gray-800 mb-2">{name}</h3>
         <div className="flex items-baseline mb-2">
           <span className="text-4xl font-bold text-gray-800">{price}</span>
@@ -50,7 +50,7 @@ export default function PricingCard({
             <span className="text-gray-500 ml-2">{period || '/month'}</span>
           )}
         </div>
-        <p className="text-gray-500 text-sm">{description}</p>
+        <p className="text-gray-500 text-sm leading-relaxed">{description}</p>
       </div>
       <Link
         to="/pricing"

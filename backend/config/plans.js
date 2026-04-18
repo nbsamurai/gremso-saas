@@ -11,8 +11,8 @@ const PLAN_DEFINITIONS = {
     professional: {
         name: 'professional',
         label: 'Professional',
-        monthlyPrice: 199,
-        yearlyPrice: 1910,
+        monthlyPrice: 100,
+        yearlyPrice: 960,
         teamMemberLimit: 20,
         storageLimitBytes: 100 * 1024 * 1024 * 1024,
         features: ['dashboard', 'projects', 'tasks', 'documents', 'team', 'basic', 'meetings', 'privateNotes', 'advanced']
@@ -20,8 +20,8 @@ const PLAN_DEFINITIONS = {
     premium_plus: {
         name: 'premium_plus',
         label: 'Premium Plus',
-        monthlyPrice: 399,
-        yearlyPrice: 3830,
+        monthlyPrice: 199,
+        yearlyPrice: 1910,
         teamMemberLimit: null,
         storageLimitBytes: null,
         features: ['dashboard', 'projects', 'tasks', 'documents', 'team', 'basic', 'meetings', 'privateNotes', 'advanced', 'all']

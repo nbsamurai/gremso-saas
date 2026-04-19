@@ -47,7 +47,7 @@ export default function Pricing() {
     }
 
     if (!isLoading) {
-      setSelectedPlanName((currentPlanName) => currentPlanName ?? pendingPlanSelection?.planName ?? 'starter');
+      setSelectedPlanName((currentPlanName) => currentPlanName ?? pendingPlanSelection?.planName ?? 'professional');
       if (pendingPlanSelection?.billingCycle) {
         setBillingCycle(pendingPlanSelection.billingCycle);
       }

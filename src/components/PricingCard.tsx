@@ -53,7 +53,7 @@ export default function PricingCard({
         <p className="text-gray-500 text-sm leading-relaxed">{description}</p>
       </div>
       <Link
-        to="/pricing"
+        to="/signup"
         className={`block w-full rounded-lg px-6 py-3 text-center font-medium transition-colors mb-6 ${
           popular ? popularCta : 'bg-gray-100 text-gray-800 hover:bg-gray-200'
         }`}
